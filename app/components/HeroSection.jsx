@@ -378,7 +378,7 @@ export default function HeroSection({ isSidebarOpen }) {
         </div>
 
         {/* Footer */}
-        <div className="bg-[#1b1730] text-white/70 px-6 py-3 rounded-xl text-center max-w-xl text-sm">
+        <div className="bg-[#1b1730] text-white/70 px-6 py-3 rounded-xl text-center max-w-xl text-sm mb-20">
           {block.type === "image"
             ? "Here are some samples of the requested image generation."
             : "Here are some sample logo designs generated for your query."}
