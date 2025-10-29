@@ -220,7 +220,7 @@ export default function HeroSection({ isSidebarOpen }) {
 
       {/* ===== Chatbox (fixed bottom) ===== */}
       <div
-        className="fixed bottom-6 left-1/2 z-50 px-4 transition-all duration-300"
+        className="fixed bottom-6 left-1/2 z-50 px-4 transition-all duration-300 ml-20"
         style={{
           transform: "translateX(-50%)",
           width: `calc(100% - ${sidebarWidth}px)`,
